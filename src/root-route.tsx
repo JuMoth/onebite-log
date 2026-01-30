@@ -22,7 +22,6 @@ export default function RootRoute() {
         <Route path="/reset-password" element={<ResetPasswordPage />} />
 
         <Route path="*" element={<Navigate to={"/"} />} />
-        <Route path="" />
       </Route>
     </Routes>
   );
